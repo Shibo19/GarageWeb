@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 
 
-logfile = open("/home/pi/GarageWeb/static/log.txt","a")
+logfile = open("cd /home/pi/GarageWeb/static/log.txt","a")
 logfile.write(datetime.now().strftime("     Program Starting -- %Y/%m/%d -- %H:%M  -- Hello! \n"))
 logfile.close()
 print(datetime.now().strftime("     Program Starting -- %Y/%m/%d -- %H:%M  -- Hello! \n"))
